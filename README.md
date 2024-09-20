@@ -10,7 +10,7 @@ Have you ever wanted to keep all of your secrets, thoughts, life challenges, and
 
 ### Design
 
-![Mock](MTC.JPEG)
+![design](https://imgur.com/a/fSPt472)
 
 
 ### Key features
