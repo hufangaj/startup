@@ -36,5 +36,9 @@ Here is an example of what I hope a Virtual Time Capsule application might inclu
 - **DB/Login** - Store users and capsule data in the database. Register and login users securely. Useres can only create/view capsules once authenicated.
 - **WebSocket** - when a capsule is unlocked, the event is broadcast to users in real-time
 
+## HTML Deliverable
+
+For this deliverable I built the basic structure of what I would like my application to look like using HTML.
+
 
 
