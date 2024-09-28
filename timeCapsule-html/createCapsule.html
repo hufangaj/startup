@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TimeCapsule HTML</title>
+    <title>TimeCapsule</title>
     <link rel="icon" href="favicon.ico" />
   </head>
   <body>
@@ -18,7 +18,8 @@
         <menu>
           <li><a href="index.html">Home</a></li>
           <li><a href="capsule.html">capsuleView</a></li>
-          <li><a href="createCapsule.html">Create Capsule</a></li>
+          <li><a href="createCapsule.html">createCapsule</a></li>
+
         </menu>
       </nav>
 
@@ -27,26 +28,38 @@
     </header>
 
     <main>
-      <h1>Welcome to the Mobile Time Capsule</h1>
-      <form method="get" action="play.html">
-        <div>
-          <span>Username</span>
-          <input type="text" placeholder="Julia Hufanga" />
-        </div>
-        <div>
-          <span>🔒</span>
-          <input type="password" placeholder="password" />
-        </div>
-        <button type="submit">Login</button>
-        <button type="submit">Create</button>
-      </form>
+      <div class="Capsule Type">
+        Player:
+        <span class="player-name">Mystery player</span>
+      </div>
+      <ul class="notification">
+        <li class="player-name">Tim started a new game</li>
+        <li class="player-name">Ada started a new game</li>
+        <li class="player-name">Tim scored 337</li>
+      </ul>
+
+      <!-- More formatting with old style HTML -->
+      <br />
+
+      <div>
+        <label for="count">Score</label>
+        <input type="text" id="count" value="--" readonly />
+      </div>
+
+      <br />
+
+      <div>
+        <button>Upload</button>
+      </div>
+
+      <br />
     </main>
 
     <footer>
       <hr />
       <span class="text-reset">Author Name(s)</span>
       <br />
-      <a href="https://github.com/hufangaj/startup/tree/main/timeCapsule-html">GitHub</a>
+      <a href="https://github.com/webprogramming260/simon-html">GitHub</a>
     </footer>
   </body>
 </html>
