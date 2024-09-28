@@ -40,5 +40,11 @@ Here is an example of what I hope a Virtual Time Capsule application might inclu
 
 For this deliverable I built the basic structure of what I would like my application to look like using HTML.
 
-
+- [x] **HTML pages** - Three Pages that 1 allows you to log in, 2 see the capsules you've created, and three add/create new capsules.
+- [x] **Links** - The login button automatically links to the capsules page that shows capsules that the user has already created. The 'Create New Capsule' button automatically links to the create capsules page, which allows you submit different files you could submit to your capsule.
+- [x] **Text** - each of the capsule descriptions are represented by text.
+- [x] **Images** - There is an image of a time capsule in every header of each page.
+- [x] **Login** - Login placeholder with a user name displayed
+- [x] **Database** - The files submitted in the create capsule page are stored in the capsule page. Also the username and passwords are stored in a database as well
+- [x] **WebSocket** - The time remaining and the unlocked capsules are shown in real time, counting down and notifying the user of an unlocked capsule.
 
