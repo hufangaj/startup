@@ -54,7 +54,7 @@ For this deliverable I styled it to the best of my abilities.
 
 - [x] **Header, footer, and main content body**
 - [x] **Navigation elements** - There is a navigation bar that allows the user to get to all the probided pages. The buttons that also navigate through the pages stand out and are a different color.
-- [x] **Responsive to window resizing** - My app has 
-- [x] **Application elements** - Used good contrast and whitespace
-- [x] **Application text content** - Consistent fonts
-- [ ] **Application images** - Still don't have images and so no styling here. 😔
+- [x] **Responsive to window resizing** - My app looks organized and good on all window sizes and devices.
+- [x] **Application elements** - Used vibrant and good contrasting colors. Organized as best as possible and is functional (in terms of CSS)
+- [x] **Application text content** - fonts are consistent
+- [ ] **Application images** - There is an image, but I still haven't figured out how to properly place/ make it transparent.
