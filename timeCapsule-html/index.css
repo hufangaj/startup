@@ -49,9 +49,9 @@ header {
 }
 
 .welcome-title {
-    font-family: 'Calibri'; /* Change 'Arial' to your preferred font */
-    font-size: 2em; /* You can adjust the size as needed */
-    color: #ffffff; /* Optional: change the text color */
+    font-family: 'Calibri';
+    font-size: 2em;
+    color: #ffffff; 
 }
 
 

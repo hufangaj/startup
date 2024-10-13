@@ -48,3 +48,13 @@ For this deliverable I built the basic structure of what I would like my applica
 - [x] **Database** - The files submitted in the create capsule page are stored in the capsule page. Also the username and passwords are stored in a database as well
 - [x] **WebSocket** - The time remaining and the unlocked capsules are shown in real time, counting down and notifying the user of an unlocked capsule.
 
+## CSS deliverable
+
+For this deliverable I styled it to the best of my abilities.
+
+- [x] **Header, footer, and main content body**
+- [x] **Navigation elements** - There is a navigation bar that allows the user to get to all the probided pages. The buttons that also navigate through the pages stand out and are a different color.
+- [x] **Responsive to window resizing** - My app has 
+- [x] **Application elements** - Used good contrast and whitespace
+- [x] **Application text content** - Consistent fonts
+- [ ] **Application images** - Still don't have images and so no styling here. 😔
