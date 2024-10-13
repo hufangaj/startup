@@ -57,4 +57,4 @@ For this deliverable I styled it to the best of my abilities.
 - [x] **Responsive to window resizing** - My app looks organized and good on all window sizes and devices.
 - [x] **Application elements** - Used vibrant and good contrasting colors. Organized as best as possible and is functional (in terms of CSS)
 - [x] **Application text content** - fonts are consistent
-- [ ] **Application images** - There is an image, but I still haven't figured out how to properly place/ make it transparent.
+- [x] **Application images** - There is an image, but I still haven't figured out how to properly place/ make it transparent.
