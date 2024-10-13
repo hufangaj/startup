@@ -1,94 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TimeCapsule</title>
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="capsules.css" />
-  </head>
-  <body>
-    <!-- Use header, main, and footer elements to give semantic structure -->
-    <header>
-        <div style="text-align: center;">
-            <h1>Mobile Time Capsule</h1>
-        </div>
-        <title>Centered Time Capsule Image</title>
-    <style>
-        .image-container {
-            text-align: center; /* Center the image */
-        }
-        .responsive-image {
-            width: 50%; /* Adjust this value to change the size */
-            max-width: 300px; /* Optional: Set a maximum width */
-            height: auto; /* Maintain aspect ratio */
-        }
-    </style>
 </head>
 <body>
-    <div class="image-container">
-        <img src="https://www.clipartmax.com/png/middle/342-3423151_plastic-time-capsule-container.png" 
-             alt="Plastic Time Capsule" 
-             class="responsive-image">
-    </div>
-</body>
-
-      <!-- Navigation elements -->
-      <nav>
-        <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
-        <menu>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="capsules.html">Capsules</a></li>
-          <li><a href="createCapsule.html">Create Capsules</a></li>
-
-        </menu>
-      </nav>
-
-      <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
-      <hr />
+    <header>
+        <h1 class="title">Mobile Time Capsule</h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="capsules.html">Capsules</a></li>
+                <li><a href="createCapsule.html">Create Capsule</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        
-        <table style="border-collapse: collapse; width: 100%;">
-            <tr>
-                <td style="text-align: center; border-right: 1px solid #000; padding: 20px;">
-                    <div>⏳</div>
-                    <p>Time Capsule Created: 02/04/99</p>
-                    <p>Time Capsule Locked Until: 04/04/04</p>
-                    <p>Time Remainign: 05 Years, 2 Months, 0 Days</p>
-                </td>
-                <td style="text-align: center; border-right: 1px solid #000; padding: 20px;">
-                    <div>⏳</div>
-                    <p>Time Capsule Created: 01/01/01</p>
-                    <p>Time Capsule Locked Until: 02/02/02</p>
-                    <p>Time Remainign: 01 Years, 1 Months, 1 Days</p>
-                </td>
-                <td style="text-align: center; padding: 20px;">
-                    <div>⏳</div>
-                    <p>Time Capsule Created: 05/07/02</p>
-                    <p>Time Capsule Locked Until:<ul style="list-style-type: none; padding: 0; margin: 0;">
-                      <li><a href="index.html"><h1>UNLOCKED</h1></a></li>
-                  </ul></p>
-                    <p>Time Remainign: 0 Years, 0 Months, 0 Days</p>
-                </td>
-            </tr>
-        </table>
+        <div class="capsule-container">
+            <div class="capsule">
+                <div>⏳</div>
+                <p>Time Capsule Created: 02/04/99</p>
+                <p>Time Capsule Locked Until: 04/04/04</p>
+                <p>Time Remaining: 05 Years, 2 Months, 0 Days</p>
+            </div>
+            <div class="capsule">
+                <div>⏳</div>
+                <p>Time Capsule Created: 01/01/01</p>
+                <p>Time Capsule Locked Until: 02/02/02</p>
+                <p>Time Remaining: 01 Year, 1 Month, 1 Day</p>
+            </div>
+            <div class="capsule">
+                <div>⏳</div>
+                <p>Time Capsule Created: 05/07/02</p>
+                <p>Time Capsule Locked Until:</p>
+                <ul style="list-style-type: none; padding: 0; margin: 0;">
+                    <li><a href="index.html"><h1>UNLOCKED</h1></a></li>
+                </ul>
+                <p>Time Remaining: 0 Years, 0 Months, 0 Days</p>
+            </div>
+        </div>
 
         <br><br>
         <div style="text-align: center;">
-          <a href="createCapsule.html" style="text-decoration: none;">
-            <button type="button">Create New Capsule</button>
-        </a>
+            <a href="createCapsule.html" style="text-decoration: none;">
+                <button type="button">Create New Capsule</button>
+            </a>
         </div>
     </main>
 
     <footer>
-      <hr />
-      <span class="text-reset">Author Name(s)</span>
-      <br />
-      <a href="https://github.com/hufangaj/startup/tree/main/timeCapsule-html">GitHub</a>
+        <hr />
+        <span class="text-reset">Author Name(s)</span>
+        <br />
+        <a href="https://github.com/hufangaj/startup/tree/main/timeCapsule-html">GitHub</a>
     </footer>
-  </body>
+</body>
 </html>
