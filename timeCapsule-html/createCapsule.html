@@ -1,68 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TimeCapsule</title>
     <link rel="icon" href="favicon.ico" />
-  </head>
-  <body>
-    <!-- Use header, main, and footer elements to give semantic structure -->
-    <header>
-      <div style="text-align: center;">
-        <h1>Mobile Time Capsule</h1>
-    </div>
-    <title>Centered Time Capsule Image</title>
-    <style>
-        .image-container {
-            text-align: center; /* Center the image */
-        }
-        .responsive-image {
-            width: 50%; /* Adjust this value to change the size */
-            max-width: 300px; /* Optional: Set a maximum width */
-            height: auto; /* Maintain aspect ratio */
-        }
-    </style>
+    <link rel="stylesheet" href="createCapsule.css" />
 </head>
 <body>
-    <div class="image-container">
-        <img src="https://www.clipartmax.com/png/middle/342-3423151_plastic-time-capsule-container.png" 
-             alt="Plastic Time Capsule" 
-             class="responsive-image">
-    </div>
-</body>
-
-      <!-- Navigation elements -->
-      <nav>
-        <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
-        <menu>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="capsules.html">Capsules</a></li>
-          <li><a href="createCapsule.html">Create Capsule</a></li>
-
-        </menu>
-      </nav>
-
-      <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
-      <hr />
+    <header>
+        <h1 class="title">Mobile Time Capsule</h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="capsules.html">Capsules</a></li>
+                <li><a href="createCapsule.html">Create Capsule</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-      <h2>Upload a New Capsule Here!</h2>
-      <form action="/upload" method="post" enctype="multipart/form-data">
-          <label for="fileUpload">Choose a file:</label>
-          <input type="file" id="fileUpload" name="fileUpload" required>
-          <br><br>
-          <button type="submit">Upload</button>
-      </form>
+        <h2>Upload a New Capsule Here!</h2>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="fileUpload">Choose a file:</label>
+            <input type="file" id="fileUpload" name="fileUpload" required>
+            <br><br>
+            <button type="submit">Upload</button>
+        </form>
     </main>
 
     <footer>
       <hr />
-      <span class="text-reset">Author Name(s)</span>
-      <br />
-      <a href="https://github.com/hufangaj/startup/tree/main/timeCapsule-html">GitHub</a>
-    </footer>
-  </body>
+      <div class="footer-content" style="display: flex; align-items: center;">
+          <span class="text-reset">Author Name(s)</span>
+          <a href="https://github.com/hufangaj/startup/tree/main/timeCapsule-html" style="margin-left: 10px;">GitHub</a>
+          <img src="https://img.freepik.com/premium-psd/time-capsule-transparent-background_274326-2502.jpg" alt="Time Capsule" class="responsive-image" style="margin-left: 10px; height: 50px;"/> <!-- Adjust height as needed -->
+      </div>
+  </footer>
+</body>
 </html>

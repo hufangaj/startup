@@ -16,6 +16,7 @@ header {
     text-align: center; 
 }
 
+
 .title {
     font-family: 'Pacifico', cursive; 
     font-size: 2.5em; 
@@ -48,18 +49,16 @@ header {
     border-radius: 5px; 
 }
 
-.welcome-title {
-    font-family: 'Calibri'; /* Change 'Arial' to your preferred font */
-    font-size: 2em; /* You can adjust the size as needed */
-    color: #ffffff; /* Optional: change the text color */
-}
-
-
 main {
     padding: 20px; 
     text-align: center; 
 }
 
+h2 {
+    font-family: 'Calibri';
+    font-size: 2em;
+    color: #ffffff;
+}
 
 form {
     background-color: rgba(255, 255, 255, 0.2);
@@ -69,16 +68,12 @@ form {
     margin-top: 20px; 
 }
 
-
-input[type="text"],
-input[type="password"] {
-    width: 100%;
+input[type="file"] {
     padding: 10px; 
     margin: 10px 0; 
     border: none; 
     border-radius: 5px; 
 }
-
 
 button {
     background-color: #4caf50; 
@@ -89,7 +84,6 @@ button {
     cursor: pointer; 
     margin-top: 10px; 
 }
-
 
 button:hover {
     background-color: #45a049;
